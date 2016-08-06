@@ -1,3 +1,10 @@
 language: ruby
 rvm:
- - 2.3.0
+- 2.3.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: uLAp5nd9V5INETgSgcTzXBhyGGGf7RRIKaxTxYtBVXyvAmomp+Mnb282ElmJF8Nfwf7RUBAJuUwmGByy3yv+9CH9eDVe3goSEziClp1txr8O6hvaTU7USpUjlyzJzJ8FzKYO0OCgtHTrEhKD+ZKAueJUBsYRQkvQnS8qsPJEXfpViu6l/xTgd1BfC3B/BYy+Uo3PKt7RYKs2YNNqfEA4QVM2UZR1maIMAlMA6fAbsRdYNmRd1EVAfVapKIfi+WRZO6e4KDrac6i6yWJHMWpL55hTaOu3inIK/2b0ipl7W7QflkXvie+vE78jxsXuLqiVV0y2oYA1B7u4T3c6i6qCDWwnPacXOMGgc4sFo178p5CenmGv3FFN5BpB/W4gU0f08MPUg14/jXNKhPtyGaapPEj/mdEgOCqOB9dz1eJohiElys6RmoAYo78/VZeNeWfus0tprrWvcqoM6FiWvjV3ievisPCEUa1W0dGHIetih3h2LrX5gKIok4+tB/iKXFOrPZryu85/Skgo8jPgNLryX+rThDulUmAynqUj23IgDcQAOo7vkeScVQBcQZZo4YtIsDaWbaqEsk5vzLAOLkdLVWf6UpR7N5gORRGDPXMJx2uyr3TJAFcl/4RdLXv0tTY9ZrvLOrIrVNc+VpeKE1lU9uiq9p+06gtkMW6XDq06nf0=
+  app: learninggit-jpaul756
+  on:
+    repo: jpaul756/learningGit
